@@ -1,0 +1,14 @@
+<div *ngIf="!HardcodedAuthinticationService.isuserlogedin()" class="container">
+    <h1>Log In Please! </h1>
+    <div class="alert alert-warning" role="alert" *ngIf='invalid'>invalid login</div>
+    <label for="fullname" class="label">Email: </label>
+    <input type="text" name="fullname" id="fullname" [(ngModel)]="username" />
+    <label for="password" class="label">Password: </label>
+    <input type="password" name="password" id="password" [(ngModel)]="password" />
+
+    <!-- <button type="button" class="btn btn-success" (click)=handel()>Log in</button> -->
+
+    <!-- <button type="button" class="btn btn-success" (click)=handelbasic()>Log in</button> -->
+    <button type="button" class="btn btn-success" (click)=handleJWTAuthLogin()>Log in</button>
+
+</div>
