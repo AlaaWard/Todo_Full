@@ -1,4 +1,5 @@
 # Todo_Full
+using Angular (Frontend Framework), TypeScript Basics, Angular Cli(To create Angular projects), Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Node (npm), Visual Studio Code (TypeScript IDE), Eclipse (Java IDE) and Tomcat Embedded Web Server
 
 Front_End
 *********
@@ -12,6 +13,7 @@ The application will automatically reload whenever you modify any of the source 
 
  Username = "alaaward"
  Password = "ward"
+ 
 
 Back_End
 ********
